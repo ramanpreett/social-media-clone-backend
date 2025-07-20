@@ -1,0 +1,30 @@
+{
+  "homepage": "https://ramanpreett.github.io/social-media-clone-backend",
+  "name": "social-media-clone-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"No build step for backend\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "nodemon": "^3.1.10"
+  }
+}
