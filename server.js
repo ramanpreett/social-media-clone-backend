@@ -5,7 +5,7 @@ require ('dotenv').config();
 
 const app = express();
 
-app.use(express.json());
+app.use(express.json()); //for backend to accept JSON format
 app.use(cors());
 
 app.use('/api/auth', require('./routes/auth'));
